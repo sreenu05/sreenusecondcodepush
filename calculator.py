@@ -38,3 +38,4 @@ Button(root,text=")",command= lambda :get_operation(")")).grid(row=4,column=5, s
 Button(root,text="^2",command= lambda :get_operation("**2")).grid(row=5,column=5, sticky=N+S+E+W)
 Button(root,text="^2",command= lambda :get_operation("**2")).grid(row=5,column=5, sticky=N+S+E+W)
 Button(root,text="=",command= lambda :calculate()).grid(columnspan=6, sticky=N+S+E+W)
+add some more feauture
